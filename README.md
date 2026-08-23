@@ -31,7 +31,7 @@ I also maintain long-running open-source infrastructure tooling such as [docker-
 
 ## Career arc
 
-- **Senior Staff Software Engineer @ Celonis** (2024–now) — principal author of Celonis' agentic application runtime.
+- **Senior Staff Software Engineer @ Celonis** (2024–now) — building the agentic application runtime powering enterprise AI workflows.
 - **Golang Team Leader @ Emporix** (2022–2024) — led the Go team building a low-code workflow Orchestration Engine that Celonis acquired, product and team.
 - **Lead Go Engineer / Senior DevOps & SRE** (2007–2022) — Go microservices at a Barcelona medical research institute; SRE at a fintech.
 - Alongside engineering: part-time Professor of statistics and CS for medical students (2005–2022), resident physician in preventive medicine, and tech writer at Byte Magazine.
