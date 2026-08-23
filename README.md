@@ -10,12 +10,6 @@ MD + BSc CS based in Barcelona, Catalonia, Spain. Currently Senior Staff Softwar
 ![Rust](https://img.shields.io/badge/Rust-DEA584?style=flat&logo=rust&logoColor=white)
 ![MCP](https://img.shields.io/badge/Model_Context_Protocol-000000?style=flat&labelColor=000000)
 
-<table><tr><td valign="top">
-<img src="https://github-readme-stats.vercel.app/api?username=jmcarbo&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true&bg_color=00000000" alt="GitHub stats" />
-</td><td valign="top">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jmcarbo&layout=compact&langs_count=8&hide_border=true&bg_color=00000000" alt="Top languages" />
-</td></tr></table>
-
 ## What I build
 
 AI and agent systems that hold up in production:
