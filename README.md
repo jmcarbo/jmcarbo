@@ -2,7 +2,7 @@
 
 **AI platform engineer** — operationalising LLMs and agents, knowledge graphs and retrieval, workflow orchestration.
 
-Physician (MD) turned engineer (BSc CS), based in Barcelona, Catalonia, Spain. Currently Senior Staff Software Engineer at [Celonis](https://www.celonis.com), where I am principal author of **ACE Kernel**, Celonis' agentic application runtime: ~325k lines of production Go (2,101 of 2,690 commits), backed by ~498k lines of tests at 90.1% coverage.
+Physician (MD) turned engineer (BSc CS), based in Barcelona, Catalonia, Spain. Currently Senior Staff Software Engineer at [Celonis](https://www.celonis.com), where I am principal author of the agentic application runtime that powers Celonis' enterprise AI workflows — a large production Go codebase.
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
@@ -14,11 +14,10 @@ Physician (MD) turned engineer (BSc CS), based in Barcelona, Catalonia, Spain. C
 
 AI and agent systems that hold up in production:
 
-- 🧠 **Model-agnostic LLM layer** over OpenAI, Anthropic, Google Gemini and Ollama — swap providers without touching application code.
-- 📐 **Tool Command Language** (spec I authored at Celonis): agent tool calling plus knowledge-graph memory — agents store tool results as (subject, predicate, object) triples.
-- ⚡ **Token-efficient tool use** (measured in internal agent-runtime work): 25 tool definitions dropped from ~2,400 tokens of JSON Schema to 160; a five-tool chain went from 7 LLM round trips to 1.
-- ✅ **Quality at scale**: raised Go test coverage from 64.9% to 90.1% across a 1,100-file suite (Celonis agentic-runtime codebase).
-- Built the **celonix-go SDK** (internal Celonis platform SDK) with an integrated MCP server.
+- 🧠 **Model-agnostic LLM orchestration** — swap providers by configuration, not by code; reproducible agent behaviour in CI with record-and-replay testing.
+- 📐 **Agent tool-use and memory design** — a specification for agent tool calling plus knowledge-graph memory, so an agent's context becomes a queryable ontology instead of a transcript.
+- ⚡ **Token- and latency-efficient tool use** — order-of-magnitude cuts in tool-definition overhead and multi-step agent round trips.
+- ✅ **Quality at scale**: high test coverage and deterministic regression testing for non-deterministic agent workloads.
 
 ## Featured open source
 
@@ -32,8 +31,8 @@ I also maintain long-running open-source infrastructure tooling such as [docker-
 
 ## Career arc
 
-- **Senior Staff Software Engineer @ Celonis** (2024–now) — ACE Kernel, agentic runtime.
-- **Golang Team Leader @ Emporix** (2022–2024) — led the Go team on a low-code Orchestration Engine acquired by Celonis (product and team); proposed Colored Petri Nets as its formal execution model on Temporal.
+- **Senior Staff Software Engineer @ Celonis** (2024–now) — principal author of Celonis' agentic application runtime.
+- **Golang Team Leader @ Emporix** (2022–2024) — led the Go team building a low-code workflow Orchestration Engine that Celonis acquired, product and team.
 - **Lead Go Engineer / Senior DevOps & SRE** (2007–2022) — Go microservices at a Barcelona medical research institute; SRE at a fintech.
 - Alongside engineering: part-time Professor of statistics and CS for medical students (2005–2022), resident physician in preventive medicine, and tech writer at Byte Magazine.
 
